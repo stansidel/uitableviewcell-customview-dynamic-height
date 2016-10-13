@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4565551DAF548C00E30237 /* TestCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4565531DAF548C00E30237 /* TestCell1.swift */; };
+		2C4565561DAF548C00E30237 /* TestCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4565541DAF548C00E30237 /* TestCell1.xib */; };
+		2C4565591DAF579600E30237 /* TestCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4565571DAF579600E30237 /* TestCell2.swift */; };
+		2C45655A1DAF579600E30237 /* TestCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4565581DAF579600E30237 /* TestCell2.xib */; };
+		2C45655C1DAF57AF00E30237 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C45655B1DAF57AF00E30237 /* CustomView.swift */; };
 		2C6FCC371DAF4AC500DA3B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6FCC361DAF4AC500DA3B98 /* AppDelegate.swift */; };
 		2C6FCC391DAF4AC500DA3B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6FCC381DAF4AC500DA3B98 /* ViewController.swift */; };
 		2C6FCC3C1DAF4AC500DA3B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6FCC3A1DAF4AC500DA3B98 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4565531DAF548C00E30237 /* TestCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell1.swift; sourceTree = "<group>"; };
+		2C4565541DAF548C00E30237 /* TestCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell1.xib; sourceTree = "<group>"; };
+		2C4565571DAF579600E30237 /* TestCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell2.swift; sourceTree = "<group>"; };
+		2C4565581DAF579600E30237 /* TestCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell2.xib; sourceTree = "<group>"; };
+		2C45655B1DAF57AF00E30237 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		2C6FCC331DAF4AC500DA3B98 /* TableVew Dynamic Height Cell Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableVew Dynamic Height Cell Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6FCC361DAF4AC500DA3B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6FCC381DAF4AC500DA3B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				2C6FCC3D1DAF4AC500DA3B98 /* Assets.xcassets */,
 				2C6FCC3F1DAF4AC500DA3B98 /* LaunchScreen.storyboard */,
 				2C6FCC421DAF4AC500DA3B98 /* Info.plist */,
+				2C4565531DAF548C00E30237 /* TestCell1.swift */,
+				2C4565541DAF548C00E30237 /* TestCell1.xib */,
+				2C4565571DAF579600E30237 /* TestCell2.swift */,
+				2C4565581DAF579600E30237 /* TestCell2.xib */,
+				2C45655B1DAF57AF00E30237 /* CustomView.swift */,
 			);
 			path = "TableVew Dynamic Height Cell Tests";
 			sourceTree = "<group>";
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					2C6FCC321DAF4AC500DA3B98 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6G54R67L3J;
 					};
 				};
 			};
@@ -125,6 +141,8 @@
 				2C6FCC411DAF4AC500DA3B98 /* LaunchScreen.storyboard in Resources */,
 				2C6FCC3E1DAF4AC500DA3B98 /* Assets.xcassets in Resources */,
 				2C6FCC3C1DAF4AC500DA3B98 /* Main.storyboard in Resources */,
+				2C4565561DAF548C00E30237 /* TestCell1.xib in Resources */,
+				2C45655A1DAF579600E30237 /* TestCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C45655C1DAF57AF00E30237 /* CustomView.swift in Sources */,
+				2C4565591DAF579600E30237 /* TestCell2.swift in Sources */,
 				2C6FCC391DAF4AC500DA3B98 /* ViewController.swift in Sources */,
 				2C6FCC371DAF4AC500DA3B98 /* AppDelegate.swift in Sources */,
+				2C4565551DAF548C00E30237 /* TestCell1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +272,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TableVew Dynamic Height Cell Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.yandex.tests.TableVew-Dynamic-Height-Cell-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TableVew Dynamic Height Cell Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.yandex.tests.TableVew-Dynamic-Height-Cell-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +315,7 @@
 				2C6FCC471DAF4AC500DA3B98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
